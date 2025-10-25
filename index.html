@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">🐾 PetStore</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Product Section -->
+  <section class="products">
+    <h2>Our Pet Products</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://placekitten.com/300/200" alt="Cat Toy">
+        <h3>Cat Toy</h3>
+        <p>Fun and colorful toy to keep your cat entertained all day!</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://placedog.net/300/200" alt="Dog Bed">
+        <h3>Dog Bed</h3>
+        <p>Soft and cozy bed to give your dog the best rest.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://placekitten.com/301/200" alt="Pet Bowl">
+        <h3>Pet Bowl</h3>
+        <p>Durable and stylish bowl for your pet’s meals.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🐱 Cat Breed Info Section -->
+  <section class="cat-breeds">
+    <div class="breed-header">
+      <h2>Explore Cat Breeds</h2>
+      <div class="counter">Clicks: <span id="clickCount">0</span></div>
+    </div>
+
+    <select id="breedSelect">
+      <option value="">Select a breed</option>
+    </select>
+
+    <div id="breedInfo" class="breed-card"></div>
+  </section>
+
+
+
+<!-- 🌟 Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left Side -->
+    <div class="footer-about">
+      <h3>🐾 PetStore</h3>
+      <p>Your trusted place for quality pet products and accessories.</p>
+    </div>
+
+    <!-- Middle Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Side: Social Media -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 PetStore. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Font Awesome for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+  <script src="json.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
